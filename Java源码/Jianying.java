@@ -223,7 +223,7 @@ public class Jianying extends Spider {
         try {
             JSONObject result = new JSONObject();
             String time = LocalDateTime.now(ZoneId.of("Asia/Shanghai")).format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm")).replace("-", "丨");
-            String key = "ba0-1024-11eb-ad";
+            String key = "ba0-2401-45eb-cs";
             String enData = CBC.hexs(time, key, key);
             String basic = "";
             int i = 0;
